@@ -3,3 +3,4 @@ creds.tfvars.json
 creds.json
 terraform.tfstate
 terraform.tfstate.backup
+.idea/
