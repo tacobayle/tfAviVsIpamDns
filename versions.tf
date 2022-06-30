@@ -1,8 +1,9 @@
 terraform {
   required_providers {
     avi = {
-      source = "terraform-providers/avi"
+      source = "vmware/avi"
+      version = "21.1.4"
     }
   }
-  required_version = ">= 0.13"
 }
+
