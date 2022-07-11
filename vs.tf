@@ -144,4 +144,9 @@ resource "avi_virtualservice" "https_vs" {
       duration = "0"
     }
   }
+  lifecycle {
+    ignore_changes = [
+      cloud_type
+    ]
+  }
 }
