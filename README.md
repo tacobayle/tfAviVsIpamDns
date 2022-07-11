@@ -1,4 +1,4 @@
-# tfAviVs
+# tfAviVsIpamDns
 
 ## Goals
 Configure a Health Monitor, Pool and VS through Terraform (via Avi provider)
@@ -60,7 +60,7 @@ The other variables don't need to be adjusted.
 ## Run the terraform:
 - apply:
 ```
-cd ~ ; git clone https://github.com/tacobayle/terraformAviVs ; cd terraformAviVs ; terraform init ; terraform apply -var-file=creds.json -auto-approve
+cd ~ ; git clone https://github.com/tacobayle/tfAviVsIpamDns ; cd tfAviVsIpamDns ; terraform init ; terraform apply -var-file=creds.json -auto-approve
 ```
 - destroy:
 ```
