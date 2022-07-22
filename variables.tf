@@ -28,7 +28,7 @@ variable "poolServers" {
 }
 
 variable "domain_name" {
-  default = "vmw.avidemo.fr"
+  default = "vcenter.avi.com"
 }
 
 variable "healthmonitor" {
