@@ -5,7 +5,7 @@ variable "avi_tenant" {
 }
 
 variable "avi_cloud" {
-  default = "dc1_vCenter"
+  default = "Default-Cloud"
 }
 
 variable "network_name" {
