@@ -9,18 +9,18 @@ variable "avi_cloud" {
 }
 
 variable "network_name" {
-  default = "vxw-dvs-34-virtualwire-118-sid-1080117-sof2-01-vc08-avi-dev114"
+  default = "vxw-dvs-34-virtualwire-120-sid-6120119-wdc-06-vc12-avi-dev116"
 }
 
 variable "poolServers" {
   default = [
     {
-      ip = "100.64.130.203"
+      ip = "100.64.129.203"
       type = "V4"
       port = "80"
     },
     {
-      ip = "100.64.130.204"
+      ip = "100.64.129.204"
       type = "V4"
       port = "80"
     }
@@ -29,7 +29,7 @@ variable "poolServers" {
 
 
 variable "domain_name" {
-  default = "vcenter.alb.com"
+  default = "vcenter.avi.com"
 }
 
 variable "healthmonitor" {

@@ -15,15 +15,15 @@ Terraform script has/have been tested against:
 ### terraform
 
 ```
-Terraform v1.0.6
+Terraform v1.8.5
 on linux_amd64
-+ provider registry.terraform.io/vmware/avi v21.1.4
++ provider registry.terraform.io/vmware/avi v22.1.6
 ```
 
 ### Avi version
 
 ```
-Avi 21.1.4
+Avi 21.1.6
 ```
 
 ### Avi Environment
@@ -51,7 +51,7 @@ The below variable(s) called need(s) to be adjusted:
 
 The other variables don't need to be adjusted.
 
-## Use the the terraform script to:
+## Use the terraform script to:
 1. Create a Health Monitor
 2. Create a Pool (based on the Health Monitor previously created)
 3. Create a vsvip (based on Avi IPAM and DNS)
